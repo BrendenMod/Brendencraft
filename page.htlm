@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BrendenCraft - Package Opening Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to BrendenCraft - Package Opening Simulator</h1>
+  </header>
+  
+  <main>
+    <section id="package-preview">
+      <h2>Package Preview</h2>
+      <img src="package-image.jpg" alt="Package Image">
+      <p>Description of the package goes here.</p>
+      <button id="open-package-button" onclick="openPackage()">Open Package</button>
+    </section>
+    
+    <section id="result">
+      <h2>Opening Result</h2>
+      <img id="result-image" src="" alt="Result Image">
+      <p id="result-text"></p>
+    </section>
+  </main>
+  
+  <footer>
+    <p>© 2022 BrendenCraft. All rights reserved.</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
